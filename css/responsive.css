@@ -1,0 +1,63 @@
+/* Responsive layout - when the screen is lower than 600px wide */
+
+@media screen and (max-width: 600px) {
+    .padded-side {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+
+    #main-nav .nav-list .nav-menu a:nth-child(2) {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .nav-logo, .nav-menu {
+        width: 100%;
+    }
+
+    .contact-details span {
+        font-size: 18px !important;
+    }
+
+    .footer-text {
+        font-size: 16px !important;
+    }
+}
+
+/* Responsive layout - when the screen is higher than 600px wide */
+@media screen and (min-width: 600px) {
+    .padded-side {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 125%;
+    }
+
+    #main-nav .nav-menu a:nth-child(2) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Responsive layout - when the screen is higher than 768px wide */
+@media screen and (min-width: 768px) {
+    .padded-side {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+/* Responsive layout - when the screen is higher than 992px wide */
+@media screen and (min-width: 992px) {
+    .padded-side {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+/* Responsive layout - when the screen is higher than 1200px wide */
+@media screen and (min-width: 1200px) {
+    .padded-side {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
