@@ -1,2 +1,2 @@
-# njehamigwi.com
+# njehamigwi.github.io
 personal portfolio
